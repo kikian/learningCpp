@@ -12,6 +12,7 @@
  */
 int main(int argc, char *argv [])
 {
+    //starting some exercise
     chapter3::convertMiles();
 
     keep_window_open();
