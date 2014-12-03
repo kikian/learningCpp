@@ -29,3 +29,5 @@
 *.tlog
 *.lastbuildstate
 *.idb
+*.suo
+*.sdf
