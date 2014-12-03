@@ -13,7 +13,13 @@
 int main(int argc, char *argv [])
 {
     //starting some exercise 
-    chapter3::convertMiles();
+    //chapter3::SortingStr();
+   // chapter3::SortingInt();
+   // chapter3::OddEven();
+    //chapter3::Spelling();
+    //chapter3::Operators();
+    chapter3::Euro();
+
 
     keep_window_open();
     return 0;

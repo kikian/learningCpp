@@ -170,6 +170,189 @@ namespace chapter3
 
         cout << "Their product is: " << val1*val2 << "\n";
     }
-}
+
+    void SortingInt()
+    {
+        cout << "Please enter 3 numbers\n";
+        int val1, val2, val3;
+        int smallest, middle, biggest;
+        cin >> val1 >> val2 >> val3;
+
+
+
+        if ((val1 <= val2) && (val1 <= val3)) {
+            smallest = val1;
+        }
+        else if ((val2 <= val1) && (val2 <= val3)){
+            smallest = val2;
+        }
+        else if ((val3 <= val1) && (val3 <= val2)){
+            smallest = val3;
+        }
+    
+        
+                if ((val1 >= val2) && (val1 >= val3)){
+                    biggest = val1;
+                }
+                else if ((val2 >= val1) && (val2 >= val3)){
+                    biggest = val2;
+                }
+                else if ((val3 >= val1) && (val3 >= val2)){
+                    biggest = val3;
+                }
+
+
+                        if ((val1 >= smallest) && (val1 < biggest)){
+                            middle = val1;
+                        }
+                        else if ((val2 >= smallest) && (val2 < biggest)){
+                            middle = val2;
+                        }
+                        else if ((val3 >= smallest) && (val3 < biggest)){
+                            middle = val3;
+                        }
+
+            cout << smallest << "," << middle << "," << biggest<<"\n";
+
+        }
+
+    
+
+    void SortingStr()
+    {
+        cout << "Please enter 3 words\n";
+        string val1, val2, val3;
+        string smallest, middle, biggest;
+        cin >> val1 >> val2 >> val3;
+
+
+
+        if ((val1 <= val2) && (val1 <= val3)) {
+            smallest = val1;
+        }
+        else if ((val2 <= val1) && (val2 <= val3)){
+            smallest = val2;
+        }
+        else if ((val3 <= val1) && (val3 <= val2)){
+            smallest = val3;
+        }
+
+
+        if ((val1 >= val2) && (val1 >= val3)){
+            biggest = val1;
+        }
+        else if ((val2 >= val1) && (val2 >= val3)){
+            biggest = val2;
+        }
+        else if ((val3 >= val1) && (val3 >= val2)){
+            biggest = val3;
+        }
+
+
+        if ((val1 >= smallest) && (val1 < biggest)){
+            middle = val1;
+        }
+        else if ((val2 >= smallest) && (val2 < biggest)){
+            middle = val2;
+        }
+        else if ((val3 >= smallest) && (val3 < biggest)){
+            middle = val3;
+        }
+
+        cout << smallest << "," << middle << "," << biggest << "\n";
+
+    }
+
+    void OddEven(){
+        int num;
+        cout << "Please enter a number\n";
+        cin >> num;
+
+        if (num%2 ==0){
+            cout << "The number is even!\n";
+        }
+        else cout << "The number is odd!\n";
+
+
+    }
+
+    void Spelling(){
+        string spelNum;
+        cout << "Please spell a number from 0-4\n";
+        cin >> spelNum;
+        if (spelNum =="zero"){
+            cout<< "0";
+        }
+        else if (spelNum == "one"){
+            cout<< "1\n";
+        }
+        else if (spelNum == "two"){
+            cout<< "2\n";
+        }
+        else if (spelNum == "three"){
+            cout<< "3\n";
+        }
+        else if (spelNum == "four"){
+            cout<< "4\n";
+        }
+        else cout << "not a number I know\n";
+
+    }
+
+    void Operators(){
+        string operation;
+        double val1, val2;
+        double result;
+        cout << "Please enter an operator (+,-,*,/) followed by two numbers\n";
+        cin >> operation >> val1 >> val2;
+
+        if (operation=="+"){
+            result = val1 + val2;
+        }
+
+        if (operation=="-"){
+            result = val1 - val2;
+        }
+
+        if (operation=="*"){
+            result = val1 * val2;
+        }
+
+        if (operation=="/"){
+            result = val1 / val2;
+        }
+
+        cout << "The result is: " << result << "\n";;
+    }
+
+    void Euro(){
+        double coin2, coin1, coin50, coin20, coin10, coin5, sum;
+        cout << "How many coins of 2 euro do you have?\n";
+        cin >> coin2;
+
+        cout << "How many coins of 1 euro do you have?\n";
+        cin >> coin1;
+
+        cout << "How many coins of 50 cents do you have?\n";
+        cin >> coin50;
+
+        cout << "How many coins of 20 cents do you have?\n";
+        cin >> coin20;
+
+        cout << "How many coins of 10 cents do you have?\n";
+        cin >> coin10;
+
+        cout << "How many coins of 5 cents do you have?\n";
+        cin >> coin5;
+
+        sum = coin2 * 2 + coin1 + coin50*0.50 + coin20*0.20 + coin10*0.10 + coin5*0.05;
+
+        cout << "You have totaly "<<sum<<" Euros\n";
+    
+    }
+
+  
+  }
+ 
 
 #endif

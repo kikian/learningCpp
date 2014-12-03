@@ -1,0 +1,2060 @@
+﻿Build started 03.12.2014 16:52:34.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+ANDROID_HOME = C:\Program Files (x86)\Android\android-sdk
+APPDATA = C:\Users\St\AppData\Roaming
+BLA_JAVA_OPTIONS = -Xmx512M -Xms512M
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = SKYNET-MOBILE
+ComSpec = C:\Windows\system32\cmd.exe
+CYGWIN = nodosfilewarning
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = C:
+HOMEPATH = \Users\St
+LM_LICENSE_FILE = C:\Work\ZSG_Tools\zwrsLicense.lic
+LOCALAPPDATA = C:\Users\St\AppData\Local
+LOGONSERVER = \\SKYNET-MOBILE
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 8
+OS = Windows_NT
+Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Work\ZSG_Tools\PcLint\9.00l;"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools";%ANDROID_HOME%\platform-tools;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\CMake\bin;C:\Python27\Scripts;C:\python27\Lib;C:\Python27\;C:\Work\ZSG_Tools\Ruby200\bin;C:\Program Files\AuthenTec TrueSuite\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\AuthenTec TrueSuite\;C:\Program Files\AuthenTec TrueSuite\x86\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Git\cmd;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Java\jre7\bin;C:\cygwin\bin;C:\Program Files\mingw-w64\x86_64-4.9.0-win32-seh-rt_v3-rev2\mingw64\bin;C:\Users\St\Anaconda;C:\Users\St\Anaconda\Scripts;C:\Program Files\Wireshark;C:\Program Files (x86)\Astaro\Astaro SSL VPN Client\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+PkgDefApplicationConfigFile = C:\Users\St\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3c03
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\St\AppData\Local\Temp
+TMP = C:\Users\St\AppData\Local\Temp
+TSHARK_HOME = C:\Program Files\Wireshark
+USERDOMAIN = SKYNET-MOBILE
+USERNAME = St
+USERPROFILE = C:\Users\St
+VBOX_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+VISUALGDB_DIR = C:\Program Files (x86)\Sysprogs\VisualGDB\
+VisualStudioDir = C:\Users\St\Documents\Visual Studio 2013
+VisualStudioEdition = Microsoft Visual Studio Premium 2013
+VisualStudioVersion = 12.0
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VSLANG = 1033
+VSSDK110Install = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VSSDK\
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+ZSG_TOOLS = C:/Work/ZSG_Tools
+_LINT = -voif
+
+16:52:34.107     1>Project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" on node 2 (Build target(s)).
+16:52:34.107     1>Initial Properties:
+                   _AfterCompileWinFXInternalDependsOn = 
+                           PrepareResourcesForSatelliteAssemblies;
+                           MergeLocalizationDirectives;
+                           AfterCompileWinFX
+                       
+                   _ApplicableDebuggers = Desktop
+                   _BuildActionType = Build
+                   _BuildSuffix = 
+                   :VCEnd
+                   _CheckDev11ToolsInstalled = true
+                   _CompileTargetNameForLocalType = _CompileTemporaryAssembly
+                   _DebugSymbolsProduced = true
+                   _DeploymentApplicationManifestIdentity = Kiki_Learning_Stuff.exe
+                   _DeploymentBuiltUpdateInterval = 0
+                   _DeploymentBuiltUpdateIntervalUnits = Days
+                   _DeploymentDeployManifestIdentity = Kiki_Learning_Stuff.application
+                   _DeploymentFileMappingExtension = 
+                   _DeploymentPublishableProjectDefault = true
+                   _DeploymentTargetApplicationManifestFileName = Kiki_Learning_Stuff.exe.manifest
+                   _DeploymentUrl = 
+                   _Dev11DesktopToolsInstalled = true
+                   _Dev11Installed = 11.0.50727
+                   _Dev11StoreToolInstalled = true
+                   _DocumentationFileProduced = false
+                   _FullFrameworkReferenceAssemblyPaths = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   _GenerateBindingRedirectsIntermediateAppConfig = Debug\Kiki_Learning_Stuff.vcxproj.Kiki_Learning_Stuff.exe.config
+                   _GetChildProjectCopyToOutputDirectoryItems = true
+                   _LINT = -voif
+                   _ManifestDependsOn = 
+                         ;
+                         
+                         ;
+                         ComputeManifestInputsTargets;
+                       ;
+                         Manifest;
+                         ComputeManifestGeneratedLinkerInputs;
+                         LinkEmbedManifest;
+                       
+                   _OriginalConfiguration = Debug
+                   _OriginalPlatform = Win32
+                   _PlatformDefaultPropsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\\Platforms\Win32\\Platform.default.props
+                   _PlatformFolder = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Win32\
+                   _PlatformToolsetFriendlyNameFor_v100 = Visual Studio 2010 (v100)
+                   _PlatformToolsetFriendlyNameFor_v110 = Visual Studio 2012 (v110)
+                   _PlatformToolsetFriendlyNameFor_v110_wp80 = Windows Phone 8.0 (v110_wp80)
+                   _PlatformToolsetFriendlyNameFor_v110_xp = Visual Studio 2012 - Windows XP (v110_xp)
+                   _PlatformToolsetFriendlyNameFor_v120 = Visual Studio 2013 (v120)
+                   _PlatformToolsetFriendlyNameFor_v120_wp81 = Windows Phone 8.1 (v120_wp81)
+                   _PlatformToolsetFriendlyNameFor_v120_xp = Visual Studio 2013 - Windows XP (v120_xp)
+                   _PlatformToolsetFriendlyNameFor_v90 = Visual Studio 2008 (v90)
+                   _PlatformToolsetShortNameFor_v100 = Visual Studio 2010
+                   _PlatformToolsetShortNameFor_v110 = Visual Studio 2012
+                   _PlatformToolsetShortNameFor_v110_wp80 = Windows Phone 8.0
+                   _PlatformToolsetShortNameFor_v110_xp = Visual Studio 2012 - Windows XP
+                   _PlatformToolsetShortNameFor_v120_wp81 = Windows Phone 8.1
+                   _PlatformToolsetShortNameFor_v90 = Visual Studio 2008
+                   _ProjectDefaultTargets = Build
+                   _PropertySheetDisplayName = Application
+                   _RequireMCPass2ForMainAssembly = false
+                   _RequireMCPass2ForSatelliteAssemblyOnly = false
+                   _ResolveReferenceDependencies = false
+                   _ResourceCompileDependsOn = 
+                         
+                         ;
+                         BeforeResourceCompile;
+                       ;
+                         ;
+                         MakeDirsForResourceCompile;
+                         ResourceCompile;
+                         
+                         ;
+                         AfterResourceCompile;
+                       
+                       
+                   _ResourceNameInMainAssembly = Kiki_Learning_Stuff.g.resources
+                   _SGenDllCreated = false
+                   _SGenDllName = Kiki_Learning_Stuff.XmlSerializers.dll
+                   _SGenGenerateSerializationAssembliesConfig = Off
+                   _TargetFrameworkDirectories = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   _ToolsetPropsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Win32\PlatformToolsets\v120\Toolset.props
+                   _ToolsetTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Platforms\Win32\PlatformToolsets\v120\Toolset.targets
+                   _UpgradePlatformToolsetFor_v100 = v120
+                   _UpgradePlatformToolsetFor_v110 = v120
+                   _UpgradePlatformToolsetFor_v110_xp = v120_xp
+                   _UpgradePlatformToolsetFor_v120 = v120
+                   _UpgradePlatformToolsetFor_v90 = v120
+                   _VC_x64_ToolsInstalled = true
+                   AddAdditionalExplicitAssemblyReferences = true
+                   AddAppConfigToBuildOutputs = true
+                   AddBuildInfoToAssembly = false
+                   AdditionalExplicitAssemblyReferences = System.Core;
+                   AfterBuildCompileTargets = 
+                         ;
+                         AfterBuildCompileEvent;
+                       
+                   AfterBuildGenerateSourcesTargets = 
+                         
+                         ;
+                         AfterBuildGenerateSources;
+                       ;
+                         AfterBuildGenerateSourcesEvent;
+                       
+                   AfterBuildLinkTargets = 
+                         ;RunMergeNativeCodeAnalysis;RunNativeCodeAnalysis;
+                         CreateSatelliteAssemblies;
+                         _Appverifier;
+                         _Deploy;
+                         PrepareForRun;
+                         PostBuildEvent;
+                       
+                   AfterClCompileTargets = 
+                         ;
+                         AfterClCompile;
+                       
+                   AfterImpLibTargets = 
+                         ;
+                         AfterImpLib;
+                       
+                   AfterLibTargets = 
+                         ;
+                         AfterLib;
+                       
+                   AfterLinkTargets = 
+                         ;
+                         AfterLink;
+                       
+                   AfterManifestTargets = 
+                         ;
+                         AfterManifest;
+                       
+                   AfterMidlTargets = 
+                         ;
+                         AfterMidl;
+                       
+                   AfterResourceCompileTargets = 
+                         ;
+                         AfterResourceCompile;
+                       
+                   AllowedReferenceAssemblyFileExtensions = 
+                         .winmd;
+                         .dll;
+                         .exe
+                       
+                   AllowedReferenceRelatedFileExtensions = 
+                         .pdb;
+                         .xml;
+                         .pri
+                       
+                   AllowLocalNetworkLoopback = true
+                   AllProjectOutputGroupsDependsOn = 
+                         ;
+                         BuiltProjectOutputGroup;
+                         DebugSymbolsProjectOutputGroup;
+                         DocumentationProjectOutputGroup;
+                         SatelliteDllsProjectOutputGroup;
+                         SourceFilesProjectOutputGroup;
+                         ContentFilesProjectOutputGroup;
+                         SGenFilesOutputGroup
+                       
+                   ALLUSERSPROFILE = C:\ProgramData
+                   AlwaysCompileMarkupFilesInSeparateDomain = true
+                   ANDROID_HOME = C:\Program Files (x86)\Android\android-sdk
+                   APPDATA = C:\Users\St\AppData\Roaming
+                   AssemblyFoldersSuffix = AssemblyFoldersEx
+                   AssemblyName = Kiki_Learning_Stuff
+                   AssemblySearchPaths = 
+                         {CandidateAssemblyFiles};
+                         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx};
+                         {AssemblyFolders};
+                         {GAC};
+                         {RawFileName};
+                         C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\
+                       
+                   AssignTargetPathsDependsOn = 
+                   Attach = false
+                   AutoUnifyAssemblyReferences = false
+                   AvailablePlatforms = Any CPU,x86,x64
+                   BaseIntermediateOutputPath = obj\
+                   BeforeBuildCompileTargets = 
+                         ;
+                       
+                   BeforeBuildGenerateSourcesTargets = 
+                         
+                         ;
+                         BeforeBuildGenerateSources;
+                       ;
+                       
+                   BeforeClCompileTargets = 
+                         ;
+                         BeforeClCompile;
+                       
+                   BeforeImpLibTargets = 
+                         ;
+                         BeforeImpLib;
+                       
+                   BeforeLibTargets = 
+                         ;
+                         BeforeLib;
+                       
+                   BeforeLinkTargets = 
+                         ;
+                         BeforeLink;
+                       
+                   BeforeManifestTargets = 
+                         ;
+                         BeforeManifest;
+                       
+                   BeforeMidlTargets = 
+                         ;
+                         BeforeMidl;
+                       
+                   BeforeResourceCompileTargets = 
+                         ;
+                         BeforeResourceCompile;
+                       
+                   BLA_JAVA_OPTIONS = -Xmx512M -Xms512M
+                   BuildCompileAction = _BuildCompileAction
+                   BuildCompileTargets = 
+                         ;
+                         _ClCompile;
+                         _ResGen;
+                         _ResourceCompile;
+                         
+                         ;
+                         _ImpLib;
+                         _Lib;
+                       ;
+                       
+                   BuildDependsOn = 
+                         _PrepareForBuild;
+                         
+                         ResolveReferences;
+                         PrepareForBuild;
+                         InitializeBuildStatus;
+                         BuildGenerateSources;
+                         BuildCompile;
+                         BuildLink;
+                       ;
+                         AfterBuild;
+                         FinalizeBuildStatus;
+                       
+                   BuildGenerateSourcesAction = _BuildGenerateSourcesAction
+                   BuildGenerateSourcesTargets = 
+                         ;
+                         PreBuildEvent;
+                         _Xsd;
+                         _Midl;
+                       
+                   BuildInfoBinPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\BuildInfo
+                   BuildInfoTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\BuildInfo\Microsoft.VisualStudio.ReleaseManagement.BuildInfo.targets
+                   BuildingInsideVisualStudio = true
+                   BuildingProject = true
+                   BuildInParallel = true
+                   BuildLibTargets = 
+                         ;
+                         _ImpLib;
+                         _Lib;
+                       
+                   BuildLinkAction = _BuildLinkAction
+                   BuildLinkTargets = 
+                         ;
+                         ComputeLegacyManifestEmbedding;
+                         _Link;
+                         _ALink;
+                         _Manifest;
+                         RegisterOutput;
+                         _XdcMake;
+                         _BscMake;
+                       
+                   BuildProjectReferences = true
+                   BuildSteps = 
+                         ResolveReferences;
+                         PrepareForBuild;
+                         InitializeBuildStatus;
+                         BuildGenerateSources;
+                         BuildCompile;
+                         BuildLink;
+                       
+                   BuildSystem = MSBuild
+                   BuildTaskAssembly = PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                   BuiltProjectOutputGroupDependsOn = PrepareForBuild
+                   CAExcludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
+                   CharacterSet = Unicode
+                   CleanDependsOn = 
+                         
+                         _PrepareForClean;
+                         
+                         
+                         BeforeClean;
+                         UnmanagedUnregistration;
+                         CoreClean;
+                         CleanReferencedProjects;
+                         CleanPublishFolder;
+                         AfterClean
+                       ;
+                         EntityClean;
+                       ;
+                       ;
+                         CppClean
+                       
+                   CleanFile = Kiki_Learning_Stuff.vcxproj.FileListAbsolute.txt
+                   CLRSupport = false
+                   ClYieldDuringToolExecution = true
+                   CodeAnalysisApplyLogFileXsl = false
+                   CodeAnalysisFailOnMissingRules = false
+                   CodeAnalysisForceOutput = true
+                   CodeAnalysisGenerateSuccessFile = true
+                   CodeAnalysisIgnoreGeneratedCode = true
+                   CodeAnalysisIgnoreInvalidTargets = true
+                   CodeAnalysisIgnoreMissingIndirectReferences = false
+                   CodeAnalysisInputAssembly = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe
+                   CodeAnalysisLogFile = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe.CodeAnalysisLog.xml
+                   CodeAnalysisModuleSuppressionsFile = GlobalSuppressions.cpp
+                   CodeAnalysisOutputToConsole = false
+                   CodeAnalysisOverrideRuleVisibilities = false
+                   CodeAnalysisPath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop\
+                   CodeAnalysisQuiet = false
+                   CodeAnalysisRuleDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop\\Rules
+                   CodeAnalysisRuleSet = NativeRecommendedRules.ruleset
+                   CodeAnalysisRuleSetDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\\Rule Sets
+                   CodeAnalysisSaveMessagesToReport = Active
+                   CodeAnalysisSearchGlobalAssemblyCache = true
+                   CodeAnalysisStaticAnalysisDirectory = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\
+                   CodeAnalysisSucceededFile = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe.lastcodeanalysissucceeded
+                   CodeAnalysisSummary = false
+                   CodeAnalysisTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+                   CodeAnalysisTimeout = 120
+                   CodeAnalysisTLogFile = Debug\CodeAnalysis.read.1.tlog
+                   CodeAnalysisTreatWarningsAsErrors = false
+                   CodeAnalysisUpdateProject = false
+                   CodeAnalysisUseTypeNameInSuppression = true
+                   CodeAnalysisVerbose = false
+                   CommonBuildOnlyTargets = 
+                         PrepareForBuild;
+                         ResolveReferences;
+                       
+                   CommonProgramFiles = C:\Program Files (x86)\Common Files
+                   CommonProgramW6432 = C:\Program Files\Common Files
+                   CommonTargetsPath = C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets
+                   CompileDependsOn = 
+                           
+                         ResolveReferences;
+                         ResolveKeySource;
+                         SetWin32ManifestProperties;
+                         _GenerateCompileInputs;
+                         BeforeCompile;
+                         _TimeStampBeforeCompile;
+                         CoreCompile;
+                         _TimeStampAfterCompile;
+                         AfterCompile;
+                       ;
+                           _AfterCompileWinFXInternal
+                       
+                   CompileLicxFilesDependsOn = 
+                   CompileRdlFilesDependsOn = PrepareRdlFiles;RunRdlCompiler
+                   CompileTargetNameForTemporaryAssembly = CompileTemporaryAssembly
+                   ComputeCompileInputsTargets = 
+                         
+                         ;
+                         ComputeMIDLGeneratedCompileInputs;
+                       ;
+                         ComputeCLInputPDBName;
+                         ComputeReferenceCLInput;
+                         WarnCompileDuplicatedFilename
+                       
+                   ComputeImpLibInputsTargets = 
+                           
+                         
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLibInputs;
+                       ;
+                         ComputeRCGeneratedImpLibInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedImpLibInputs;
+                       ;
+                           ComputeImpLibInputsFromProject;
+                         
+                   ComputeIntermediateSatelliteAssembliesDependsOn = 
+                         CreateManifestResourceNames
+                       
+                   ComputeLibInputsTargets = 
+                         ComputeLibAdditionalOptions;
+                         
+                         
+                           
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLibInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedLibInputs;
+                       ;
+                           ComputeLibInputsFromProject;
+                         ;
+                         ComputeReferenceLibInputs;
+                       
+                       
+                   ComputeLinkInputsTargets = 
+                         
+                           
+                         
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLinkInputs;
+                       ;
+                         ComputeManifestGeneratedLinkerInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedLinkInputs;
+                       ;
+                           ComputeLinkInputsFromProject;
+                         ;
+                         ComputeReferenceLinkInputs;
+                       
+                   ComputeManifestInputsTargets = 
+                         ;
+                         ComputeManifestInputsTargets;
+                       
+                   COMPUTERNAME = SKYNET-MOBILE
+                   ComReferenceExecuteAsTool = false
+                   ComReferenceNoClassMembers = false
+                   ComSpec = C:\Windows\system32\cmd.exe
+                   Configuration = Debug
+                   ConfigurationName = Debug
+                   ConfigurationType = Application
+                   ConsiderPlatformAsProcessorArchitecture = true
+                   ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc
+                   ContinueOnError = false
+                   CoreBuildDependsOn = 
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         PreBuildEvent;
+                         ResolveReferences;
+                         PrepareResources;
+                         ResolveKeySource;
+                         Compile;
+                         ExportWindowsMDFile;
+                         UnmanagedUnregistration;
+                         GenerateSerializationAssemblies;
+                         CreateSatelliteAssemblies;
+                         GenerateManifests;
+                         GetTargetPath;
+                         PrepareForRun;
+                         UnmanagedRegistration;
+                         IncrementalClean;
+                         PostBuildEvent
+                       
+                   CoreCleanDependsOn = 
+                   CoreCompileDependsOn = 
+                           DesignTimeXamlMarkupCompilation;
+                           
+                             DesignTimeMarkupCompilation;
+                             
+                         
+                       
+                   CoreCppCleanDependsOn = 
+                   CoreResGenDependsOn = 
+                   CppCleanDependsOn = 
+                         BeforeCppClean;
+                         ;
+                         CoreCppClean;
+                         AfterCppClean;
+                       ;PGInstrumentedClean
+                   CppCleanLogFile = Kiki_Learning_Stuff.Build.CppClean.log
+                   CreateCustomManifestResourceNamesDependsOn = 
+                   CreateHardLinksForCopyAdditionalFilesIfPossible = false
+                   CreateManifestResourceNamesDependsOn = 
+                   CreateSatelliteAssembliesDependsOn = 
+                         _GenerateSatelliteAssemblyInputs;
+                         ComputeIntermediateSatelliteAssemblies;
+                         GenerateSatelliteAssemblies
+                       
+                   CRTDefinitionalFile = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\VCProjectDefault\Microsoft.AppX.VCFrameworkReferences.xml
+                   CrtSDKReferenceInclude = Microsoft.VCLibs, Version=12.0
+                   CrtSDKReferenceVersion = 12.0
+                   CurrentSolutionConfigurationContents = <SolutionConfiguration>
+                   <ProjectConfiguration Project="{b0474088-30ec-483b-ab2c-a083301b96a9}" AbsolutePath="C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj">Debug|Win32</ProjectConfiguration>
+                   </SolutionConfiguration>
+                   CustomAfterMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v12.0\Custom.After.Microsoft.Common.props
+                   CustomAfterMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v12.0\Custom.After.Microsoft.Common.targets
+                   CustomBeforeMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v12.0\Custom.Before.Microsoft.Common.props
+                   CustomBeforeMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v12.0\Custom.Before.Microsoft.Common.targets
+                   CustomBuildAfterTargets = BscMake
+                   CustomBuildBeforeTargets = PostBuildEvent
+                   CustomBuildToolAfterTargets = PreBuildEvent
+                   CustomBuildToolBeforeTargets = Midl
+                   CYGWIN = nodosfilewarning
+                   DebugCppRuntimeFilesPath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\redist\Debug_NonRedist\x86
+                   DebuggerFlavor = WindowsLocalDebugger
+                   DebuggerLaunchApplication = true
+                   DebuggerRequireAuthentication = true
+                   DebuggerType = NativeOnly
+                   DebugSymbols = true
+                   DebugSymbolsProjectOutputGroupDependsOn = 
+                   DefaultLanguageSourceExtension = .cpp
+                   DefaultPlatformToolset = v120
+                   DefaultToolArchitecture = Native32Bit
+                   DefineExplicitDefaults = true
+                   DelayImplib = Delayimp.lib
+                   DelaySign = 
+                   DeploymentType = Installed
+                   DesignTimeIntermediateOutputPath = Debug\InProcessTempFiles\
+                   DesignTimeResolveAssemblyReferencesDependsOn = 
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         ResolveReferences
+                       
+                   DevEnvDir = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\
+                   DocumentationProjectOutputGroupDependsOn = ResolvedXDCMake;ComputeCLCompileGeneratedXDCFiles
+                   DocumentLibraryDependencies = true
+                   EmbeddedWin32Manifest = 
+                   EmbedManifest = true
+                   EmbedManifestBy = LINK
+                   EnableManagedIncrementalBuild = false
+                   EntityDeployDependsOn = 
+                   EntityDeployIntermediateResourcePath = Debug\edmxResourcesToEmbed\
+                   ExcludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;
+                   ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Windows\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Work\ZSG_Tools\PcLint\9.00l;"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools";%ANDROID_HOME%\platform-tools;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\CMake\bin;C:\Python27\Scripts;C:\python27\Lib;C:\Python27\;C:\Work\ZSG_Tools\Ruby200\bin;C:\Program Files\AuthenTec TrueSuite\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\AuthenTec TrueSuite\;C:\Program Files\AuthenTec TrueSuite\x86\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Git\cmd;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Java\jre7\bin;C:\cygwin\bin;C:\Program Files\mingw-w64\x86_64-4.9.0-win32-seh-rt_v3-rev2\mingw64\bin;C:\Users\St\Anaconda;C:\Users\St\Anaconda\Scripts;C:\Program Files\Wireshark;C:\Program Files (x86)\Astaro\Astaro SSL VPN Client\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;
+                   ExpandSDKAllowedReferenceExtensions = 
+                         .winmd;
+                         .dll
+                       
+                   ExpandSDKReferencesDependsOn = 
+                         ResolveSDKReferences
+                       
+                   ExtensionSDKDirectoryRoot = C:\Program Files (x86)\Microsoft SDKs
+                   ExtensionSDKRegistryFormat = 
+                   ExtensionSDKUserDirectoryRoot = C:\Users\St\AppData\Local\Microsoft SDKs
+                   ExtensionsToDeleteOnClean = *.cdf;*.cache;*.obj;*.ilk;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe.manifest;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.tlb;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.pdb;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.bsc;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.ilk;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe.intermediate.manifest;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe.CodeAnalysisLog.xml;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe.lastcodeanalysissucceeded
+                   FakesBinPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\Fakes
+                   FakesCommandLineArguments =  /Properties:";PlatformTarget=x86" /msbuildpath:"C:\Program Files (x86)\MSBuild\12.0\bin\msbuild.exe"
+                   FakesCompilationProperties = ;PlatformTarget=x86
+                   FakesContinueOnError = false
+                   FakesGenerateBeforeBuildDependsOn = 
+                         ;
+                         ResolveFakesReferences;
+                         BuildFakesAssemblies;
+                       
+                   FakesImported = true
+                   FakesIntermediatePath = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Fakes
+                   FakesMSBuildPath = C:\Program Files (x86)\MSBuild\12.0\bin\msbuild.exe
+                   FakesOutputPath = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\FakesAssemblies
+                   FakesTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\Fakes\Microsoft.QualityTools.Testing.Fakes.targets
+                   FakesTasks = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\Fakes\Microsoft.QualityTools.Testing.Fakes.Tasks.dll
+                   FakesToolsPath = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\Fakes
+                   FakesVerbosity = Critical
+                   FindInvalidProjectReferencesDependsOn = 
+                         GetReferenceTargetPlatformMonikers
+                       
+                   FP_NO_HOST_CHECK = NO
+                   Framework20Dir = @(_TargetFramework20DirectoryItem)
+                   Framework30Dir = @(_TargetFramework30DirectoryItem)
+                   Framework35Dir = @(_TargetFramework35DirectoryItem)
+                   Framework40Dir = @(_TargetFramework40DirectoryItem)
+                   FrameworkDir = C:\Windows\Microsoft.NET\Framework\
+                   FrameworkDir_110 = C:\Windows\Microsoft.NET\Framework\
+                   FrameworkPathOverride = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   FrameworkRegistryBase = Software\Microsoft\.NETFramework
+                   FrameworkSdkDir = C:\Program Files (x86)\Windows Kits\8.1\
+                   FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\
+                   FrameworkVersion = v4.5
+                   FullReferenceAssemblyNames = Full
+                   FxCompileAfterTargets = CustomBuild
+                   FxCompileBeforeTargets = Midl
+                   GenerateBindingRedirectsOutputType = true
+                   GenerateBuildInfoConfigFile = false
+                   GenerateClickOnceManifests = 
+                   GeneratedFileExtension = .g.cpp
+                   GenerateManifest = true
+                   GenerateManifestsDependsOn = 
+                         SetWin32ManifestProperties;
+                         GenerateApplicationManifest;
+                         GenerateDeploymentManifest
+                       
+                   GenerateTargetFrameworkAttribute = false
+                   GetCopyToOutputDirectoryItemsDependsOn = 
+                         AssignTargetPaths;
+                         _SplitProjectReferencesByFileExistence
+                       
+                   GetFrameworkPathsDependsOn = 
+                   GetReferenceAssemblyPathsDependsOn = 
+                           ;
+                           GetWinFXPath
+                       
+                   GetTargetPathDependsOn = 
+                   GetTargetPathWithTargetPlatformMonikerDependsOn = ; GetTargetPath
+                   GPURefDebuggerBreakOnAllThreads = GPURefBreakOncePerWarp
+                   HighEntropyVA = false
+                   HOMEDRIVE = C:
+                   HOMEPATH = \Users\St
+                   HostInBrowser = false
+                   IgnoreImportLibrary = false
+                   ImplicitlyExpandDesignTimeFacadesDependsOn = 
+                         ;
+                         GetReferenceAssemblyPaths
+                       
+                   ImportByWildcardAfterMicrosoftCommonTargets = true
+                   ImportByWildcardAfterMicrosoftNetFrameworkProps = true
+                   ImportByWildcardAfterMicrosoftNetFrameworkTargets = true
+                   ImportByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportByWildcardBeforeMicrosoftNetFrameworkProps = true
+                   ImportByWildcardBeforeMicrosoftNetFrameworkTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkProps = true
+                   ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkProps = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkTargets = true
+                   IncludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
+                   IncludeServerNameInBuildInfo = false
+                   IncludeVersionInInteropName = true
+                   IntDir = Debug\
+                   IntermediateOutputPath = Debug\
+                   InteropOutputPath = Interop\
+                   IsApplication = true
+                   Keyword = Win32Proj
+                   LangID = 1033
+                   LangName = en-US
+                   Language = C++
+                   LastBuildState = Debug\Kiki_Lea.B0474088.tlog\Kiki_Learning_Stuff.lastbuildstate
+                   LastBuildUnsuccessful = Debug\Kiki_Lea.B0474088.tlog\unsuccessfulbuild
+                   LibraryPath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;;
+                   LibraryWPath = C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral;
+                   LinkCompiled = true
+                   LinkIncremental = true
+                   LM_LICENSE_FILE = C:\Work\ZSG_Tools\zwrsLicense.lic
+                   LoadTimeSensitiveProperties = 
+                         ;
+                       
+                   LoadTimeSensitiveTargets = 
+                         ;
+                         XamlMarkupCompilePass1;
+                       
+                   LOCALAPPDATA = C:\Users\St\AppData\Local
+                   LocalDebuggerAttach = False
+                   LocalDebuggerCommand = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe
+                   LocalDebuggerDebuggerType = Auto
+                   LocalDebuggerMergeEnvironment = true
+                   LocalDebuggerSQLDebugging = False
+                   LocalDebuggerWorkingDirectory = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\
+                   LocalGPUDebuggerTargetType = {F4453496-1DB8-47F8-A7D5-31EBDDC2EC96}
+                   LocalizationDirectivesToLocFile = None
+                   LOGONSERVER = \\SKYNET-MOBILE
+                   ManagedAssembly = false
+                   ManagedIncrementalBuildProcessDependencyGraphAfterTarget = 
+                         ClCompile
+                       
+                   ManagedIncrementalBuildProcessDependencyGraphBeforeTarget = 
+                         ClCompile
+                       
+                   MarkupCompilePass2ForMainAssemblyDependsOn = 
+                                        GenerateTemporaryTargetAssembly;
+                                        MarkupCompilePass2;
+                                        AfterMarkupCompilePass2;
+                                        CleanupTemporaryTargetAssembly
+                          
+                   MaxTargetPath = 100
+                   MergedOutputCodeAnalysisFile = Debug\vc.nativecodeanalysis.all.xml
+                   MetagenInputTarget = Link
+                   MetaGenTargets = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\\Microsoft.MetaGen.targets
+                   MicrosoftCommonPropsHasBeenImported = true
+                   MidlYieldDuringToolExecution = true
+                   MpiDebuggerCleanupDeployment = True
+                   MpiDebuggerDebuggerType = Auto
+                   MpiDebuggerDeployCommonRuntime = True
+                   MpiDebuggerNetworkSecurityMode = AnyAddress
+                   MpiDebuggerSchedulerNode = localhost/1
+                   MpiDebuggerSchedulerTimeout = 5000
+                   MsAppxPackageTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets
+                   MSBuild_ExecutablePath = C:\Program Files (x86)\MSBuild\12.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildAllProjects = ;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.targets;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.props;C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets;C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Xaml.targets
+                   MSBuildAssemblyVersion = 12.0
+                   MSBuildBinPath = C:\Program Files (x86)\MSBuild\12.0\bin
+                   MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+                   MSBuildFrameworkToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildFrameworkToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildFrameworkToolsRoot = C:\Windows\Microsoft.NET\Framework\
+                   MSBuildLoadMicrosoftTargetsReadOnly = true
+                   MSBuildNodeCount = 8
+                   MSBuildProgramFiles32 = C:\Program Files (x86)
+                   MSBuildProjectDefaultTargets = Build
+                   MSBuildProjectDirectory = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff
+                   MSBuildProjectDirectoryNoRoot = Work\non_BMW\learningCpp\Kiki_Learning_Stuff
+                   MSBuildProjectExtension = .vcxproj
+                   MSBuildProjectFile = Kiki_Learning_Stuff.vcxproj
+                   MSBuildProjectFullPath = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj
+                   MSBuildProjectName = Kiki_Learning_Stuff
+                   MSBuildRuntimeVersion = 4.0.30319
+                   MSBuildStartupDirectory = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE
+                   MSBuildToolsPath = C:\Program Files (x86)\MSBuild\12.0\bin
+                   MSBuildToolsPath32 = C:\Program Files (x86)\MSBuild\12.0\bin\
+                   MSBuildToolsRoot = C:\Program Files (x86)\MSBuild\
+                   MSBuildToolsVersion = 12.0
+                   MSBuildUserExtensionsPath = C:\Users\St\AppData\Local\Microsoft\MSBuild
+                   MsTestToolsTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\TeamTest\Microsoft.TeamTest.targets
+                   NativeCodeAnalysisTLogFile = Debug\NativeCodeAnalysis.read.1.tlog
+                   NetFrameworkPropsPath = C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.props
+                   NetFrameworkTargetsPath = C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets
+                   NUMBER_OF_PROCESSORS = 8
+                   OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration = true
+                   OS = Windows_NT
+                   OSVersion = 5.1.2600.0
+                   OutDir = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\
+                   OutDirWasSpecified = false
+                   OutputPath = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\
+                   OutputType = exe
+                   OverwriteReadOnlyFiles = false
+                   Path = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Work\ZSG_Tools\PcLint\9.00l;"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools";%ANDROID_HOME%\platform-tools;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\CMake\bin;C:\Python27\Scripts;C:\python27\Lib;C:\Python27\;C:\Work\ZSG_Tools\Ruby200\bin;C:\Program Files\AuthenTec TrueSuite\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\AuthenTec TrueSuite\;C:\Program Files\AuthenTec TrueSuite\x86\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Git\cmd;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Java\jre7\bin;C:\cygwin\bin;C:\Program Files\mingw-w64\x86_64-4.9.0-win32-seh-rt_v3-rev2\mingw64\bin;C:\Users\St\Anaconda;C:\Users\St\Anaconda\Scripts;C:\Program Files\Wireshark;C:\Program Files (x86)\Astaro\Astaro SSL VPN Client\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\
+                   PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+                   PkgDefApplicationConfigFile = C:\Users\St\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
+                   Platform = Win32
+                   Platform_Actual = Win32
+                   PlatformArchitecture = 32
+                   PlatformName = Win32
+                   PlatformPropsFound = true
+                   PlatformShortName = x86
+                   PlatformTarget = x86
+                   PlatformTargetAsMSBuildArchitecture = x86
+                   PlatformTargetAsMSBuildArchitectureExplicitlySet = false
+                   PlatformTargetsFound = true
+                   PlatformToolset = v120
+                   PlatformToolsetVersion = 120
+                   PostBuildEventDependsOn = 
+                   PostBuildEventUseInBuild = true
+                   PreBuildEventDependsOn = 
+                   PreBuildEventUseInBuild = true
+                   Prefer32Bit = false
+                   PreferredToolArchitecture = x86
+                   PreLinkEventUseInBuild = true
+                   PrepareForBuildDependsOn = PlatformPrepareForBuild;GetFrameworkPaths;GetReferenceAssemblyPaths;AssignLinkMetadata;SetCABuildNativeEnvironmentVariables
+                   PrepareForRunDependsOn = 
+                         CopyFilesToOutputDirectory
+                       
+                   PrepareResourceNamesDependsOn = 
+                                       AssignWinFXEmbeddedResource;
+                                       
+                         AssignTargetPaths;
+                         SplitResourcesByCulture;
+                         CreateManifestResourceNames;
+                         CreateCustomManifestResourceNames
+                       
+                         
+                   PrepareResourcesDependsOn = 
+                         XamlMarkupCompilePass1;
+                         XamlMarkupCompilePass2;
+                         
+                                   MarkupCompilePass1;
+                                   AfterMarkupCompilePass1;
+                                   MarkupCompilePass2ForMainAssembly;
+                                   FileClassification;
+                                   MainResourcesGeneration;
+                                   
+                         PrepareResourceNames;
+                         ResGen;
+                         CompileLicxFiles
+                       ;CompileRdlFiles
+                          
+                       
+                   PROCESSOR_ARCHITECTURE = x86
+                   PROCESSOR_ARCHITEW6432 = AMD64
+                   PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+                   PROCESSOR_LEVEL = 6
+                   PROCESSOR_REVISION = 3c03
+                   ProcessorArchitecture = x86
+                   ProgramData = C:\ProgramData
+                   ProgramFiles = C:\Program Files (x86)
+                   ProgramW6432 = C:\Program Files
+                   ProjectDesignTimeAssemblyResolutionSearchPaths = 
+                         {CandidateAssemblyFiles};
+                         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx};
+                         {RawFileName};
+                         C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\
+                       
+                   ProjectDir = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\
+                   ProjectEvaluationFingerprint = Debug|Win32|C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\|
+                   ProjectExt = .vcxproj
+                   ProjectFileName = Kiki_Learning_Stuff.vcxproj
+                   ProjectFlavor = Client
+                   ProjectGuid = {B0474088-30EC-483B-AB2C-A083301B96A9}
+                   ProjectName = Kiki_Learning_Stuff
+                   ProjectPath = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj
+                   PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+                   PUBLIC = C:\Users\Public
+                   PublishableProject = true
+                   PublishBuildDependsOn = 
+                               BuildOnlySettings;
+                               PrepareForBuild;
+                               ResolveReferences;
+                               PrepareResources;
+                               ResolveKeySource;
+                               PrepareResourcesForSatelliteAssemblies;
+                               GenerateSerializationAssemblies;
+                               CreateSatelliteAssemblies;
+                           
+                   PublishDependsOn = 
+                         SetGenerateManifests;
+                         Build;
+                         PublishOnly
+                       
+                   PublishDir = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\app.publish\
+                   PublishOnlyDependsOn = 
+                         SetGenerateManifests;
+                         PublishBuild;
+                         BeforePublish;
+                         GenerateManifests;
+                         CopyFilesToOutputDirectory;
+                         _CopyFilesToPublishFolder;
+                         _DeploymentGenerateBootstrapper;
+                         ResolveKeySource;
+                         _DeploymentSignClickOnceDeployment;
+                         AfterPublish
+                       
+                   PublishPipelineCollectFilesCore = 
+                               ;
+                               CollectFilesFromBuildInfoConfigFile;
+                           
+                   RebuildDependsOn = 
+                         _PrepareForRebuild;
+                         
+                         BeforeRebuild;
+                         Clean;
+                         Build;
+                         AfterRebuild;
+                       ;
+                       
+                   ReferencePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;
+                   RemoteDebuggerAttach = False
+                   RemoteDebuggerConnection = RemoteWithAuthentication
+                   RemoteDebuggerDebuggerType = Auto
+                   RemoteDebuggerDeployDebugCppRuntime = true
+                   RemoteDebuggerServerName = SKYNET-MOBILE
+                   RemoteDebuggerSQLDebugging = False
+                   RemoteDebuggerWorkingDirectory = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\
+                   RemoteGPUDebuggerTargetType = {F4453496-1DB8-47F8-A7D5-31EBDDC2EC96}
+                   ReportingServicesTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\ReportingServices\Microsoft.ReportingServices.targets
+                   ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+                   ResGenExecuteAsTool = false
+                   ResolveAssemblyReferencesDependsOn = _PrepareForReferenceResolution;
+                         
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         PrepareForBuild;
+                         ResolveSDKReferences;
+                         ExpandSDKReferences;
+                       ;
+                         FakesGenerateBeforeBuild;
+                       
+                   ResolveReferencesDependsOn = _PrepareForReferenceResolution;ComputeCrtSDKReference;
+                         
+                         
+                         BeforeResolveReferences;
+                         AssignProjectConfiguration;
+                         ResolveProjectReferences;
+                         FindInvalidProjectReferences;
+                         ResolveNativeReferences;
+                         ResolveAssemblyReferences;
+                         GenerateBindingRedirects;
+                         ResolveComReferences;
+                         AfterResolveReferences
+                       ;
+                         ImplicitlyExpandDesignTimeFacades
+                       ;
+                         ResolveTestReferences
+                       
+                   ResolveSDKReferencesDependsOn = _PrepareForReferenceResolution;ComputeCrtSDKReference;
+                         GetInstalledSDKLocations
+                       
+                   RootNamespace = Kiki_Learning_Stuff
+                   RunAfterInstall = true
+                   RunCodeAnalysisDependsOn = ;ClCompile;RunMergeNativeCodeAnalysis
+                   RunCodeAnalysisInputs = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe
+                   RunDependsOn = 
+                   RunMergeNativeCodeAnalysisDependsOn = ClCompile
+                   RunNativeCodeAnalysisInputs = 
+                   SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+                   SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+                   SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+                   SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+                   SDKReferenceDirectoryRoot = C:\Users\St\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+                   SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+                   SESSIONNAME = Console
+                   SGenFilesOutputGroupDependsOn = 
+                   SGenShouldGenerateSerializer = true
+                   SGenUseKeep = false
+                   SGenUseProxyTypes = true
+                   ShouldMarkCertainSDKReferencesAsRuntimeOnly = true
+                   SkipCopyBuildProduct = true
+                   SkipCopyUnchangedFiles = true
+                   SolutionDir = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\
+                   SolutionExt = .sln
+                   SolutionFileName = Kiki_Learning_Stuff.sln
+                   SolutionName = Kiki_Learning_Stuff
+                   SolutionPath = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.sln
+                   SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+                   SourcePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\mfc;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\mfcm;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\atl;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\crt\src;
+                   SQLDebugging = false
+                   SystemDrive = C:
+                   SystemRoot = C:\Windows
+                   TargetCulture = *
+                   TargetDeployManifestFileName = Kiki_Learning_Stuff.application
+                   TargetDir = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\
+                   TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+                   TargetedRuntimeVersion = v4.0.30319
+                   TargetedSDKArchitecture = x86
+                   TargetedSDKConfiguration = Debug
+                   TargetExt = .exe
+                   TargetFileName = Kiki_Learning_Stuff.exe
+                   TargetFrameworkAsMSBuildRuntime = CLR4
+                   TargetFrameworkIdentifier = .NETFramework
+                   TargetFrameworkMoniker = .NETFramework,Version=v4.0
+                   TargetFrameworkMonikerAssemblyAttributesPath = C:\Users\St\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp
+                   TargetFrameworkMonikerDisplayName = .NET Framework 4
+                   TargetFrameworkSDKToolsDirectory = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\
+                   TargetFrameworkVersion = v4.0
+                   TargetName = Kiki_Learning_Stuff
+                   TargetPath = C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe
+                   TargetPlatformDisplayName = Windows 7.0
+                   TargetPlatformIdentifier = Windows
+                   TargetPlatformMoniker = Windows,Version=7.0
+                   TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+                   TargetPlatformSdkMetadataLocation = C:\Program Files\Microsoft SDKs\Windows\v7.0\References\CommonConfiguration\Neutral
+                   TargetPlatformSdkPath = C:\Program Files\Microsoft SDKs\Windows\v7.0\
+                   TargetPlatformVersion = 7.0
+                   TargetPlatformVersionOptions = 7.0;8.0
+                   TargetPlatformWinMDLocation = C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral
+                   TargetRuntime = Managed
+                   TaskKeyToken = 31bf3856ad364e35
+                   TaskVersion = 4.0.0.0
+                   TEMP = C:\Users\St\AppData\Local\Temp
+                   TLogLocation = Debug\Kiki_Lea.B0474088.tlog\
+                   TMP = C:\Users\St\AppData\Local\Temp
+                   ToolsetPropsFound = true
+                   ToolsetTargetsFound = true
+                   TrackFileAccess = true
+                   TSHARK_HOME = C:\Program Files\Wireshark
+                   UnmanagedRegistrationDependsOn = 
+                   UnmanagedUnregistrationDependsOn = 
+                   UpgradeSubsetToProfile = true
+                   UseCommonOutputDirectory = false
+                   UseDebugLibraries = true
+                   UseLegacyManagedDebugger = true
+                   UseOfATL = false
+                   UseOfMFC = false
+                   USERDOMAIN = SKYNET-MOBILE
+                   USERNAME = St
+                   USERPROFILE = C:\Users\St
+                   UserRootDir = C:\Users\St\AppData\Local\Microsoft\MSBuild\v4.0
+                   UseSourcePath = true
+                   VBOX_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+                   VC_ExecutablePath_ARM = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+                   VC_ExecutablePath_x64 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+                   VC_ExecutablePath_x64_ARM = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64_arm
+                   VC_ExecutablePath_x64_x64 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64
+                   VC_ExecutablePath_x64_x86 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\amd64_x86
+                   VC_ExecutablePath_x86 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+                   VC_ExecutablePath_x86_ARM = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_arm
+                   VC_ExecutablePath_x86_x64 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64
+                   VC_ExecutablePath_x86_x86 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+                   VC_IncludePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include
+                   VC_LibraryPath_ARM = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\ARM;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib\ARM
+                   VC_LibraryPath_x64 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib\amd64
+                   VC_LibraryPath_x86 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib
+                   VC_ReferencesPath_ARM = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib\ARM;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\ARM
+                   VC_ReferencesPath_x64 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib\amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib\amd64
+                   VC_ReferencesPath_x86 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib
+                   VC_SourcePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\mfc;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\mfcm;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\src\atl;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\crt\src
+                   VCInstallDir = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\
+                   VCInstallDir_120 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\
+                   VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+                   VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+                   VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   VCTargetsPath12 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+                   VCTargetsPathEffective = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\
+                   VCToolArchitecture = Native32Bit
+                   Version = 1.0.0.0
+                   VISUALGDB_DIR = C:\Program Files (x86)\Sysprogs\VisualGDB\
+                   VisualStudioDir = C:\Users\St\Documents\Visual Studio 2013
+                   VisualStudioEdition = Microsoft Visual Studio Premium 2013
+                   VisualStudioVersion = 12.0
+                   VS_ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;
+                   VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+                   VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+                   VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+                   VSIDEResolvedNonMSBuildProjectOutputs = <VSIDEResolvedNonMSBuildProjectOutputs />
+                   VSInstallDir = C:\Program Files (x86)\Microsoft Visual Studio 12.0\
+                   VSInstallDir_120 = C:\Program Files (x86)\Microsoft Visual Studio 12.0\
+                   VSLANG = 1033
+                   VSSDK110Install = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VSSDK\
+                   VSVersion = $(VisualStudoVersion)
+                   WebBrowserDebuggerDebuggerType = Auto
+                   WebReference_EnableLegacyEventingModel = false
+                   WebReference_EnableProperties = true
+                   WebReference_EnableSQLTypes = true
+                   WebServiceDebuggerDebuggerType = Auto
+                   WebServiceDebuggerSQLDebugging = False
+                   WholeProgramOptimization = false
+                   WholeProgramOptimizationAvailabilityInstrument = true
+                   WholeProgramOptimizationAvailabilityOptimize = true
+                   WholeProgramOptimizationAvailabilityTrue = true
+                   WholeProgramOptimizationAvailabilityUpdate = true
+                   windir = C:\Windows
+                   windows_tracing_flags = 3
+                   windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+                   WindowsAppContainer = false
+                   WindowsSDK_ExecutablePath = C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools
+                   WindowsSDK_ExecutablePath_arm = C:\Program Files (x86)\Windows Kits\8.1\bin\arm;
+                   WindowsSDK_ExecutablePath_x64 = C:\Program Files (x86)\Windows Kits\8.1\bin\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64
+                   WindowsSDK_ExecutablePath_x86 = C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools
+                   WindowsSDK_IncludePath = C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;
+                   WindowsSDK_LibraryPath_arm = C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\arm;
+                   WindowsSDK_LibraryPath_x64 = C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x64;
+                   WindowsSDK_LibraryPath_x86 = C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;
+                   WindowsSDK_MetadataPath = C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral
+                   WindowsSDK80Path = C:\Program Files (x86)\Windows Kits\8.1\
+                   WindowsSdkDir = C:\Program Files (x86)\Windows Kits\8.1\
+                   WindowsSdkDir_80 = C:\Program Files (x86)\Windows Kits\8.0\
+                   WindowsSdkDir_81 = C:\Program Files (x86)\Windows Kits\8.1\
+                   WindowsSdkDir_81A = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\
+                   WindowsSDKToolArchitecture = Native32Bit
+                   WinMDAssembly = false
+                   WMSJSProject = WJProject
+                   WMSJSProjectDirectory = JavaScript
+                   XamlBuildTaskAssemblyName = XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                   XamlBuildTaskLocation = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   XamlBuildTaskPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   XamlDebuggingInformation = true
+                   XamlGenCodeFileNames = Kiki_Learning_Stuff.vcxproj.XamlGeneratedCodeFileListAbsolute.txt
+                   XamlGenMarkupFileNames = Kiki_Learning_Stuff.vcxproj.XamlGeneratedXamlFileListAbsolute.txt
+                   XamlPass2FlagFile = Kiki_Learning_Stuff.vcxproj.XamlPass2Flag.txt
+                   XamlRequiresCompilationPass2 = false
+                   XamlTemporaryAssemblyName = Kiki_Learning_Stuff
+                   YieldDuringToolExecution = true
+                   ZSG_TOOLS = C:/Work/ZSG_Tools
+
+16:52:34.107     1>Building with tools version "12.0".
+16:52:34.107     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Task Parameter:Text=Configuration=Debug (TaskId:2)
+                     Task Parameter:Importance=Low (TaskId:2)
+                     Configuration=Debug (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Task Parameter:Text=Platform=Win32 (TaskId:3)
+                     Task Parameter:Importance=Low (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\' != '' and !HasTrailingSlash('C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+16:52:34.122     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:2)
+16:52:34.122     1>Target "_PrepareForBuild: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "Build" depends on it):
+                   Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
+16:52:34.122     1>Done building target "_PrepareForBuild" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:3)
+16:52:34.122     1>Target "_PrepareForReferenceResolution: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+16:52:34.122     1>Done building target "_PrepareForReferenceResolution" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:4)
+                   Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('main.cpp'!='' and 'false'=='true' and '' != 'false').
+16:52:34.122     1>Target "BeforeResolveReferences: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveReferences" depends on it):
+16:52:34.122     1>Done building target "BeforeResolveReferences" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:5)
+16:52:34.122     1>Target "AssignProjectConfiguration: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignProjectConfiguration" (TaskId:4)
+                     Task Parameter:CurrentProject=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj (TaskId:4)
+                     Task Parameter:CurrentProjectConfiguration=Debug (TaskId:4)
+                     Task Parameter:CurrentProjectPlatform=Win32 (TaskId:4)
+                     Task Parameter:OutputType=exe (TaskId:4)
+                     Task Parameter:ResolveConfigurationPlatformUsingMappings=False (TaskId:4)
+                     Task Parameter:SolutionConfigurationContents=<SolutionConfiguration>
+                     <ProjectConfiguration Project="{b0474088-30ec-483b-ab2c-a083301b96a9}" AbsolutePath="C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj">Debug|Win32</ProjectConfiguration>
+                     </SolutionConfiguration> (TaskId:4)
+                     Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:4)
+                     Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:4)
+                   Done executing task "AssignProjectConfiguration". (TaskId:4)
+16:52:34.122     1>Done building target "AssignProjectConfiguration" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:6)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+16:52:34.122     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+16:52:34.122     1>Done building target "_SplitProjectReferencesByFileExistence" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:7)
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+16:52:34.122     1>Target "ResolveProjectReferences: (TargetId:8)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '12.0' != '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '12.0' == '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+16:52:34.122     1>Done building target "ResolveProjectReferences" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:8)
+                   Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+                   Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+16:52:34.122     1>Target "GetFrameworkPaths: (TargetId:9)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+16:52:34.122     1>Done building target "GetFrameworkPaths" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:9)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+16:52:34.122     1>Target "GetReferenceAssemblyPaths: (TargetId:10)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+16:52:34.122     1>Done building target "GetReferenceAssemblyPaths" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:10)
+16:52:34.122     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:11)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "PrepareForBuild" depends on it):
+                   Using "SetEnv" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+                   Task "SetEnv" (TaskId:5)
+                     Task Parameter:Name=PATH (TaskId:5)
+                     Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Windows\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Work\ZSG_Tools\PcLint\9.00l;"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools";%ANDROID_HOME%\platform-tools;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\CMake\bin;C:\Python27\Scripts;C:\python27\Lib;C:\Python27\;C:\Work\ZSG_Tools\Ruby200\bin;C:\Program Files\AuthenTec TrueSuite\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\AuthenTec TrueSuite\;C:\Program Files\AuthenTec TrueSuite\x86\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Git\cmd;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Java\jre7\bin;C:\cygwin\bin;C:\Program Files\mingw-w64\x86_64-4.9.0-win32-seh-rt_v3-rev2\mingw64\bin;C:\Users\St\Anaconda;C:\Users\St\Anaconda\Scripts;C:\Program Files\Wireshark;C:\Program Files (x86)\Astaro\Astaro SSL VPN Client\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\; (TaskId:5)
+                     Task Parameter:Prefix=False (TaskId:5)
+                     PATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Windows\SysWow64;;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Work\ZSG_Tools\PcLint\9.00l;"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools";C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\CMake\bin;C:\Python27\Scripts;C:\python27\Lib;C:\Python27\;C:\Work\ZSG_Tools\Ruby200\bin;C:\Program Files\AuthenTec TrueSuite\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\AuthenTec TrueSuite\;C:\Program Files\AuthenTec TrueSuite\x86\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Git\cmd;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Java\jre7\bin;C:\cygwin\bin;C:\Program Files\mingw-w64\x86_64-4.9.0-win32-seh-rt_v3-rev2\mingw64\bin;C:\Users\St\Anaconda;C:\Users\St\Anaconda\Scripts;C:\Program Files\Wireshark;C:\Program Files (x86)\Astaro\Astaro SSL VPN Client\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\; (TaskId:5)
+                   Done executing task "SetEnv". (TaskId:5)
+                   Task "SetEnv" (TaskId:6)
+                     Task Parameter:Name=LIB (TaskId:6)
+                     Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;; (TaskId:6)
+                     Task Parameter:Prefix=False (TaskId:6)
+                     LIB=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;; (TaskId:6)
+                   Done executing task "SetEnv". (TaskId:6)
+                   Task "SetEnv" (TaskId:7)
+                     Task Parameter:Name=LIBPATH (TaskId:7)
+                     Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib; (TaskId:7)
+                     Task Parameter:Prefix=False (TaskId:7)
+                     LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib; (TaskId:7)
+                   Done executing task "SetEnv". (TaskId:7)
+                   Task "SetEnv" (TaskId:8)
+                     Task Parameter:Name=INCLUDE (TaskId:8)
+                     Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;; (TaskId:8)
+                     Task Parameter:Prefix=False (TaskId:8)
+                     INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;; (TaskId:8)
+                   Done executing task "SetEnv". (TaskId:8)
+16:52:34.122     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:11)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+16:52:34.122     1>Target "GetResolvedWinMD: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "PrepareForBuild" depends on it):
+16:52:34.122     1>Done building target "GetResolvedWinMD" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:12)
+16:52:34.122     1>Target "PlatformPrepareForBuild: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(_Error64bitToolsNotInstalled)' == 'true') was evaluated as ('' == 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(ConfigurationPlatformExists)' != 'true') was evaluated as ('true' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(ToolsetTargetsFound)' != 'true') was evaluated as ('true' != 'true').
+16:52:34.122     1>Done building target "PlatformPrepareForBuild" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:13)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+                   Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+16:52:34.122     1>Target "SetCABuildNativeEnvironmentVariables: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "PrepareForBuild" depends on it):
+                   Initializing task factory "CodeTaskFactory" from assembly "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Build.Tasks.v12.0.dll".
+                   Using "SetEnvironmentVariable" task from the task factory "Code Task Factory".
+                   Task "SetEnvironmentVariable" (TaskId:9)
+                     Task Parameter:EnvValue=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;; (TaskId:9)
+                     Task Parameter:EnvKey=CAExcludePath (TaskId:9)
+                   Done executing task "SetEnvironmentVariable". (TaskId:9)
+16:52:34.122     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:14)
+16:52:34.122     1>Target "PrepareForBuild: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as ('' != 'true' and 'true' != 'true').
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:10)
+                     Task Parameter:Directories=Debug\ (TaskId:10)
+                   Done executing task "MakeDir". (TaskId:10)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') was evaluated as (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true' and 'v120'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Windows Kits\8.1\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') was evaluated as ('' != '' and ''!='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_MBCS_Using)' == 'true' and '$(_MBCS_Installed)' != 'true' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' == 'true' and '' != 'true' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true') was evaluated as ('' != 'true' and '' == 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true')) was evaluated as ('' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true')).
+                   Task "MakeDir" (TaskId:11)
+                     Task Parameter:
+                         Directories=
+                             Debug\
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\
+                             Debug\Kiki_Lea.B0474088.tlog\ (TaskId:11)
+                   Done executing task "MakeDir". (TaskId:11)
+16:52:34.122     1>Done building target "PrepareForBuild" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:15)
+                   Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+                   Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('main.cpp'!='' and 'false'=='true' and '' != 'false').
+16:52:34.122     1>Target "GetInstalledSDKLocations: (TargetId:16)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+16:52:34.122     1>Done building target "GetInstalledSDKLocations" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:16)
+16:52:34.122     1>Target "ResolveSDKReferences: (TargetId:17)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+16:52:34.122     1>Done building target "ResolveSDKReferences" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:17)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+16:52:34.122     1>Target "ExpandSDKReferences: (TargetId:18)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+16:52:34.122     1>Done building target "ExpandSDKReferences" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:18)
+                   Target "FakesGenerateBeforeBuild" skipped, due to false condition; (@(Fakes) != '' AND $(BuildingProject)) was evaluated as ( != '' AND true).
+16:52:34.122     1>Target "ResolveAssemblyReferences: (TargetId:19)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+16:52:34.122     1>Done building target "ResolveAssemblyReferences" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:19)
+                   Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and 'true' == 'true').
+                   Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and 'true' == 'true' and Exists('Debug\Kiki_Learning_Stuff.vcxproj.Kiki_Learning_Stuff.exe.config')).
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+16:52:34.122     1>Target "AfterResolveReferences: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ResolveReferences" depends on it):
+16:52:34.122     1>Done building target "AfterResolveReferences" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:20)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+16:52:34.122     1>Target "ResolveReferences: (TargetId:21)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "Build" depends on it):
+16:52:34.122     1>Done building target "ResolveReferences" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:21)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+16:52:34.122     1>Target "InitializeBuildStatus: (TargetId:22)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "Build" depends on it):
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:12)
+                     Task Parameter:File=Debug\Kiki_Lea.B0474088.tlog\Kiki_Learning_Stuff.lastbuildstate (TaskId:12)
+                   Done executing task "ReadLinesFromFile". (TaskId:12)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:13)
+                     Task Parameter:Overwrite=True (TaskId:13)
+                     Task Parameter:File=Debug\Kiki_Lea.B0474088.tlog\Kiki_Learning_Stuff.lastbuildstate (TaskId:13)
+                     Task Parameter:
+                         Lines=
+                             #TargetFrameworkVersion=v4.0:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+                             Debug|Win32|C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\| (TaskId:13)
+                   Done executing task "WriteLinesToFile". (TaskId:13)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:14)
+                     Task Parameter:AlwaysCreate=True (TaskId:14)
+                     Task Parameter:Files=Debug\Kiki_Lea.B0474088.tlog\unsuccessfulbuild (TaskId:14)
+                     Creating "Debug\Kiki_Lea.B0474088.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:14)
+                   Done executing task "Touch". (TaskId:14)
+16:52:34.122     1>Done building target "InitializeBuildStatus" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:22)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+16:52:34.122     1>Target "BuildGenerateSourcesTraverse: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+16:52:34.122     1>Done building target "BuildGenerateSourcesTraverse" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:23)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+16:52:34.122     1>Target "BeforeBuildGenerateSources: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:52:34.122     1>Done building target "BeforeBuildGenerateSources" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:24)
+16:52:34.122     1>Target "PreBuildEvent: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+16:52:34.122     1>Done building target "PreBuildEvent" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:25)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+                   Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+16:52:34.122     1>Target "_Xsd: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:52:34.122     1>Done building target "_Xsd" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:26)
+16:52:34.122     1>Target "MakeDirsForMidl: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:15)
+                   Done executing task "Makedir". (TaskId:15)
+16:52:34.122     1>Done building target "MakeDirsForMidl" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:27)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+                   Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+16:52:34.122     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Midl" depends on it):
+16:52:34.122     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:28)
+16:52:34.122     1>Target "AfterMidl: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Midl" depends on it):
+16:52:34.122     1>Done building target "AfterMidl" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:29)
+16:52:34.122     1>Target "_Midl: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:52:34.122     1>Done building target "_Midl" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:30)
+16:52:34.122     1>Target "AfterBuildGenerateSources: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:52:34.122     1>Done building target "AfterBuildGenerateSources" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:31)
+16:52:34.122     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+16:52:34.122     1>Done building target "AfterBuildGenerateSourcesEvent" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:32)
+16:52:34.122     1>Target "_BuildGenerateSourcesAction: (TargetId:33)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "BuildGenerateSources" depends on it):
+16:52:34.122     1>Done building target "_BuildGenerateSourcesAction" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:33)
+16:52:34.122     1>Target "BuildGenerateSources: (TargetId:34)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "Build" depends on it):
+16:52:34.122     1>Done building target "BuildGenerateSources" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:34)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+16:52:34.122     1>Target "BuildCompileTraverse: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+16:52:34.122     1>Done building target "BuildCompileTraverse" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:35)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+16:52:34.122     1>Target "BeforeClCompile: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_ClCompile" depends on it):
+16:52:34.122     1>Done building target "BeforeClCompile" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:36)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+16:52:34.122     1>Target "ComputeCLInputPDBName: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_ClCompile" depends on it):
+16:52:34.122     1>Done building target "ComputeCLInputPDBName" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:37)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+16:52:34.122     1>Target "ComputeReferenceCLInput: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+16:52:34.122     1>Done building target "ComputeReferenceCLInput" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:38)
+16:52:34.122     1>Target "WarnCompileDuplicatedFilename: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_ClCompile" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'main.cpp' != 'main.cpp' and 'Debug\' == 'Debug\').
+16:52:34.122     1>Done building target "WarnCompileDuplicatedFilename" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:39)
+16:52:34.122     1>Target "MakeDirsForCl: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:16)
+                     Task Parameter:
+                         Directories=
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug (TaskId:16)
+                   Done executing task "MakeDir". (TaskId:16)
+16:52:34.122     1>Done building target "MakeDirsForCl" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:40)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+16:52:34.122     1>Target "_SelectedFiles: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "SelectClCompile" depends on it):
+16:52:34.122     1>Done building target "_SelectedFiles" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:41)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+16:52:34.122     1>Target "SelectCustomBuild: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "SelectClCompile" depends on it):
+16:52:34.122     1>Done building target "SelectCustomBuild" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:42)
+16:52:34.122     1>Target "SelectClCompile: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ClCompile" depends on it):
+16:52:34.122     1>Done building target "SelectClCompile" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:43)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('main.cpp' != '' and 'false' == 'True').
+16:52:34.122     1>Target "ClCompile: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_ClCompile" depends on it):
+                   Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'OldStyle' and 'Debug\vc120.pdb' != '' and !Exists(Debug\vc120.pdb)).
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') was evaluated as ('' == 'Create' and ''!='true' and '' == '').
+                   Using "CL" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+                   Task "CL" (TaskId:17)
+                     Task Parameter:BuildingInIde=True (TaskId:17)
+                     Task Parameter:
+                         Sources=
+                             main.cpp
+                                     AcceptableNonZeroExitCodes=
+                                     AssemblerListingLocation=
+                                     AssemblerOutput=NoListing
+                                     BasicRuntimeChecks=EnableFastChecks
+                                     BrowseInformation=false
+                                     BrowseInformationFile=Debug\
+                                     BufferSecurityCheck=true
+                                     CallingConvention=Cdecl
+                                     CompileAs=CompileAsCpp
+                                     DebugInformationFormat=EditAndContinue
+                                     DisableLanguageExtensions=false
+                                     EnableEnhancedInstructionSet=NotSet
+                                     EnableFiberSafeOptimizations=false
+                                     EnablePREfast=false
+                                     ErrorReporting=Prompt
+                                     ExceptionHandling=Sync
+                                     ExpandAttributedSource=false
+                                     FavorSizeOrSpeed=Neither
+                                     FloatingPointModel=Precise
+                                     ForceConformanceInForLoopScope=true
+                                     ForcedIncludeFiles=
+                                     ForcedUsingFiles=
+                                     GenerateXMLDocumentationFiles=false
+                                     IgnoreStandardIncludePath=false
+                                     ImpLibCompiled=
+                                     InlineFunctionExpansion=Default
+                                     IntrinsicFunctions=false
+                                     LibCompiled=
+                                     LinkCompiled=true
+                                     MinimalRebuild=true
+                                     MinimalRebuildFromTracking=true
+                                     ObjectFileName=Debug\
+                                     OmitDefaultLibName=false
+                                     OmitFramePointers=false
+                                     Optimization=Disabled
+                                     PrecompiledHeader=
+                                     PrecompiledHeaderFile=
+                                     PrecompiledHeaderOutputFile=
+                                     PreprocessKeepComments=false
+                                     PreprocessorDefinitions=WIN32;_DEBUG;_CONSOLE;_LIB;_UNICODE;UNICODE;
+                                     PreprocessSuppressLineNumbers=false
+                                     PreprocessToFile=false
+                                     ProgramDataBaseFileName=Debug\vc120.pdb
+                                     RuntimeLibrary=MultiThreadedDebugDll
+                                     ShowIncludes=false
+                                     SmallerTypeCheck=false
+                                     StructMemberAlignment=Default
+                                     SuppressStartupBanner=true
+                                     TrackerLogDirectory=Debug\Kiki_Lea.B0474088.tlog\
+                                     TreatWarningAsError=false
+                                     TreatWChar_tAsBuiltInType=true
+                                     UndefineAllPreprocessorDefinitions=false
+                                     UseFullPaths=false
+                                     UseUnicodeForAssemblerListing=
+                                     WarningLevel=Level4
+                                     WholeProgramOptimization=false
+                                     WinRTNoStdLib=false
+                                     XMLDocumentationFileName=Debug\ (TaskId:17)
+                     Task Parameter:AssemblerOutput=NoListing (TaskId:17)
+                     Task Parameter:BasicRuntimeChecks=EnableFastChecks (TaskId:17)
+                     Task Parameter:BrowseInformation=False (TaskId:17)
+                     Task Parameter:BrowseInformationFile=Debug\ (TaskId:17)
+                     Task Parameter:BufferSecurityCheck=true (TaskId:17)
+                     Task Parameter:CallingConvention=Cdecl (TaskId:17)
+                     Task Parameter:CompileAs=CompileAsCpp (TaskId:17)
+                     Task Parameter:DebugInformationFormat=EditAndContinue (TaskId:17)
+                     Task Parameter:DisableLanguageExtensions=False (TaskId:17)
+                     Task Parameter:EnableEnhancedInstructionSet=NotSet (TaskId:17)
+                     Task Parameter:EnableFiberSafeOptimizations=False (TaskId:17)
+                     Task Parameter:EnablePREfast=False (TaskId:17)
+                     Task Parameter:ErrorReporting=Prompt (TaskId:17)
+                     Task Parameter:ExceptionHandling=Sync (TaskId:17)
+                     Task Parameter:
+                         ExcludedInputPaths=
+                             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include
+                             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include
+                             C:\Program Files (x86)\Windows Kits\8.1\Include\um
+                             C:\Program Files (x86)\Windows Kits\8.1\Include\shared
+                             C:\Program Files (x86)\Windows Kits\8.1\Include\winrt
+                             C:\Program Files (x86)\MSBuild\12.0\bin\
+                             C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib
+                             C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib (TaskId:17)
+                     Task Parameter:ExpandAttributedSource=False (TaskId:17)
+                     Task Parameter:FavorSizeOrSpeed=Neither (TaskId:17)
+                     Task Parameter:FloatingPointModel=Precise (TaskId:17)
+                     Task Parameter:ForceConformanceInForLoopScope=True (TaskId:17)
+                     Task Parameter:GenerateXMLDocumentationFiles=False (TaskId:17)
+                     Task Parameter:IgnoreStandardIncludePath=False (TaskId:17)
+                     Task Parameter:InlineFunctionExpansion=Default (TaskId:17)
+                     Task Parameter:IntrinsicFunctions=False (TaskId:17)
+                     Task Parameter:MinimalRebuild=True (TaskId:17)
+                     Task Parameter:ObjectFileName=Debug\ (TaskId:17)
+                     Task Parameter:OmitDefaultLibName=False (TaskId:17)
+                     Task Parameter:OmitFramePointers=False (TaskId:17)
+                     Task Parameter:Optimization=Disabled (TaskId:17)
+                     Task Parameter:PreprocessKeepComments=False (TaskId:17)
+                     Task Parameter:
+                         PreprocessorDefinitions=
+                             WIN32
+                             _DEBUG
+                             _CONSOLE
+                             _LIB
+                             _UNICODE
+                             UNICODE (TaskId:17)
+                     Task Parameter:PreprocessSuppressLineNumbers=False (TaskId:17)
+                     Task Parameter:PreprocessToFile=False (TaskId:17)
+                     Task Parameter:ProgramDataBaseFileName=Debug\vc120.pdb (TaskId:17)
+                     Task Parameter:RuntimeLibrary=MultiThreadedDebugDll (TaskId:17)
+                     Task Parameter:ShowIncludes=False (TaskId:17)
+                     Task Parameter:SmallerTypeCheck=False (TaskId:17)
+                     Task Parameter:StructMemberAlignment=Default (TaskId:17)
+                     Task Parameter:SuppressStartupBanner=True (TaskId:17)
+                     Task Parameter:TreatWarningAsError=False (TaskId:17)
+                     Task Parameter:TreatWChar_tAsBuiltInType=True (TaskId:17)
+                     Task Parameter:UndefineAllPreprocessorDefinitions=False (TaskId:17)
+                     Task Parameter:UseFullPaths=False (TaskId:17)
+                     Task Parameter:WarningLevel=Level4 (TaskId:17)
+                     Task Parameter:WholeProgramOptimization=False (TaskId:17)
+                     Task Parameter:WinRTNoStdLib=False (TaskId:17)
+                     Task Parameter:XMLDocumentationFileName=Debug\ (TaskId:17)
+                     Task Parameter:TrackerLogDirectory=Debug\Kiki_Lea.B0474088.tlog\ (TaskId:17)
+                     Task Parameter:TrackFileAccess=True (TaskId:17)
+                     Task Parameter:MinimalRebuildFromTracking=True (TaskId:17)
+                     Task Parameter:ToolArchitecture=Native32Bit (TaskId:17)
+                     Task Parameter:DeleteOutputOnExecute=True (TaskId:17)
+                     Task Parameter:YieldDuringToolExecution=True (TaskId:17)
+                     Using cached input dependency table built from: (TaskId:17)
+                     	C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Lea.B0474088.tlog\cl.read.1.tlog (TaskId:17)
+                     Outputs for C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\MAIN.CPP: (TaskId:17)
+                     	C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\DEBUG\MAIN.OBJ (TaskId:17)
+                     main.cpp will be compiled as C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\main.cpp was modified at 03.12.2014 16:52:31. (TaskId:17)
+                     Environment Variables passed to tool: (TaskId:17)
+                       VS_UNICODE_OUTPUT=1340 (TaskId:17)
+                     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp (TaskId:17)
+                     Tracking command: (TaskId:17)
+                     C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Lea.B0474088.tlog /r C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\MAIN.CPP /b MSBuildConsole_CancelEvent436d8c2e1e4041c29332bae698e1d414  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe"  /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp (TaskId:17)
+                     main.cpp (TaskId:17)
+16:52:34.668     1>c:\work\non_bmw\learningcpp\kiki_learning_stuff\chapter3.h(64): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+16:52:34.668     1>c:\work\non_bmw\learningcpp\kiki_learning_stuff\chapter3.h(65): warning C4244: 'initializing' : conversion from 'int' to 'char', possible loss of data
+16:52:34.699     1>c:\work\non_bmw\learningcpp\kiki_learning_stuff\main.cpp(13): warning C4100: 'argv' : unreferenced formal parameter
+16:52:34.699     1>c:\work\non_bmw\learningcpp\kiki_learning_stuff\main.cpp(13): warning C4100: 'argc' : unreferenced formal parameter
+16:52:34.855     1>c:\work\non_bmw\learningcpp\kiki_learning_stuff\chapter3.h(205): warning C4701: potentially uninitialized local variable 'smallest' used
+16:52:34.855     1>c:\work\non_bmw\learningcpp\kiki_learning_stuff\chapter3.h(205): warning C4701: potentially uninitialized local variable 'biggest' used
+16:52:34.855     1>c:\work\non_bmw\learningcpp\kiki_learning_stuff\chapter3.h(215): warning C4701: potentially uninitialized local variable 'middle' used
+16:52:34.855     1>c:\work\non_bmw\learningcpp\kiki_learning_stuff\chapter3.h(325): warning C4701: potentially uninitialized local variable 'result' used
+                   Done executing task "CL". (TaskId:17)
+16:52:34.887     1>Done building target "ClCompile" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:44)
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('main.cpp' != '' and 'false' == 'True').
+16:52:34.887     1>Target "AfterClCompile: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_ClCompile" depends on it):
+16:52:34.887     1>Done building target "AfterClCompile" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:45)
+16:52:34.887     1>Target "_ClCompile: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildCompileAction" depends on it):
+16:52:34.887     1>Done building target "_ClCompile" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:46)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+16:52:34.887     1>Target "BeforeResourceCompile: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_ResourceCompile" depends on it):
+16:52:34.887     1>Done building target "BeforeResourceCompile" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:47)
+16:52:34.887     1>Target "MakeDirsForResourceCompile: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:18)
+                     Task Parameter:Directories=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug (TaskId:18)
+                   Done executing task "MakeDir". (TaskId:18)
+16:52:34.887     1>Done building target "MakeDirsForResourceCompile" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:48)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+16:52:34.887     1>Target "AfterResourceCompile: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_ResourceCompile" depends on it):
+16:52:34.887     1>Done building target "AfterResourceCompile" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:49)
+16:52:34.887     1>Target "_ResourceCompile: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildCompileAction" depends on it):
+16:52:34.887     1>Done building target "_ResourceCompile" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:50)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+                   Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+16:52:34.887     1>Target "AfterBuildCompileEvent: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildCompileAction" depends on it):
+16:52:34.887     1>Done building target "AfterBuildCompileEvent" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:51)
+16:52:34.887     1>Target "_BuildCompileAction: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "BuildCompile" depends on it):
+16:52:34.887     1>Done building target "_BuildCompileAction" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:52)
+16:52:34.887     1>Target "BuildCompile: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "Build" depends on it):
+16:52:34.887     1>Done building target "BuildCompile" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:53)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+16:52:34.887     1>Target "BuildLinkTraverse: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+16:52:34.887     1>Done building target "BuildLinkTraverse" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:54)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+16:52:34.887     1>Target "ComputeLegacyManifestEmbedding: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+16:52:34.887     1>Done building target "ComputeLegacyManifestEmbedding" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:55)
+16:52:34.887     1>Target "BeforeLink: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+16:52:34.887     1>Done building target "BeforeLink" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:56)
+16:52:34.887     1>Target "ComputeRCOutputs: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+16:52:34.887     1>Done building target "ComputeRCOutputs" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:57)
+16:52:34.887     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+16:52:34.887     1>Done building target "ComputeRCGeneratedLinkInputs" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:58)
+16:52:34.887     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+16:52:34.887     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:59)
+16:52:34.887     1>Target "ComputeCustomBuildOutput: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+                   Task "CreateItem" skipped, due to false condition; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') was evaluated as (''!='').
+                   Task "MakeDir" (TaskId:19)
+                   Done executing task "MakeDir". (TaskId:19)
+16:52:34.887     1>Done building target "ComputeCustomBuildOutput" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:60)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+16:52:34.887     1>Target "ComputeCLOutputs: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+16:52:34.887     1>Done building target "ComputeCLOutputs" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:61)
+16:52:34.887     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+16:52:34.887     1>Done building target "ComputeCLGeneratedLinkInputs" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:62)
+16:52:34.887     1>Target "ComputeLinkInputsFromProject: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+16:52:34.887     1>Done building target "ComputeLinkInputsFromProject" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:63)
+                   Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+16:52:34.887     1>Target "ComputeManifestInputsTargets: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+16:52:34.887     1>Done building target "ComputeManifestInputsTargets" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:64)
+                   Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('LINK' == 'LINK' and '' != '').
+                   Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+16:52:34.887     1>Target "AssignTargetPaths: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:20)
+                     Task Parameter:RootFolder=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff (TaskId:20)
+                   Done executing task "AssignTargetPath". (TaskId:20)
+                   Task "AssignTargetPath" (TaskId:21)
+                     Task Parameter:RootFolder=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff (TaskId:21)
+                   Done executing task "AssignTargetPath". (TaskId:21)
+                   Task "AssignTargetPath" (TaskId:22)
+                     Task Parameter:RootFolder=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff (TaskId:22)
+                   Done executing task "AssignTargetPath". (TaskId:22)
+                   Task "AssignTargetPath" (TaskId:23)
+                     Task Parameter:RootFolder=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff (TaskId:23)
+                   Done executing task "AssignTargetPath". (TaskId:23)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+16:52:34.887     1>Done building target "AssignTargetPaths" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:65)
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+16:52:34.887     1>Target "SplitResourcesByCulture: (TargetId:66)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignCulture" (TaskId:24)
+                   Done executing task "AssignCulture". (TaskId:24)
+16:52:34.887     1>Done building target "SplitResourcesByCulture" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:66)
+                   Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+16:52:34.887     1>Target "CreateCustomManifestResourceNames: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "PrepareResourceNames" depends on it):
+16:52:34.887     1>Done building target "CreateCustomManifestResourceNames" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:67)
+16:52:34.887     1>Target "PrepareResourceNames: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+16:52:34.887     1>Done building target "PrepareResourceNames" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:68)
+16:52:34.902     1>Target "MakeDirsForLink: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:25)
+                     Task Parameter:
+                         Directories=
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug
+                             C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\ (TaskId:25)
+                   Done executing task "MakeDir". (TaskId:25)
+16:52:34.902     1>Done building target "MakeDirsForLink" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:69)
+16:52:34.902     1>Target "DoLinkOutputFilesMatch: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe' == '').
+                   Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe' != '' and 'C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe' != 'C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe').
+                   Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe' != '' and '.exe' != '' and '.exe' != '.exe').
+                   Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe' != '' and 'Kiki_Learning_Stuff' != '' and 'Kiki_Learning_Stuff' != 'Kiki_Learning_Stuff').
+                   Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('Console' == '' or 'Console' == 'NotSet')).
+16:52:34.902     1>Done building target "DoLinkOutputFilesMatch" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:70)
+16:52:34.902     1>Target "PreLinkEvent: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+16:52:34.902     1>Done building target "PreLinkEvent" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:71)
+16:52:34.902     1>Target "ComputeLinkSwitches: (TargetId:72)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "Link" depends on it):
+16:52:34.902     1>Done building target "ComputeLinkSwitches" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:72)
+16:52:34.902     1>Target "Link: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+                   Using "Link" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+                   Task "Link" (TaskId:26)
+                     Task Parameter:BuildingInIde=True (TaskId:26)
+                     Task Parameter:
+                         Sources=
+                             Debug\main.obj
+                                     AcceptableNonZeroExitCodes=
+                                     AdditionalDependencies=kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;
+                                     AllowIsolation=true
+                                     CLRImageType=Default
+                                     DataExecutionPrevention=true
+                                     DelaySign=
+                                     Driver=NotSet
+                                     EnableUAC=true
+                                     GenerateDebugInformation=true
+                                     GenerateMapFile=false
+                                     IgnoreEmbeddedIDL=false
+                                     ImportLibrary=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.lib
+                                     KeyFile=
+                                     LinkErrorReporting=PromptImmediately
+                                     ManifestEmbed=true
+                                     ManifestFile=
+                                     ManifestInput=;;
+                                     MapExports=false
+                                     MinimalRebuildFromTracking=true
+                                     NoEntryPoint=false
+                                     OutputFile=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe
+                                     PerUserRedirection=false
+                                     Profile=false
+                                     ProfileGuidedDatabase=
+                                     ProgramDatabaseFile=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.pdb
+                                     RandomizedBaseAddress=true
+                                     RegisterOutput=false
+                                     SetChecksum=false
+                                     ShowProgress=NotSet
+                                     SubSystem=Console
+                                     SuppressStartupBanner=true
+                                     SwapRunFromCD=false
+                                     SwapRunFromNET=false
+                                     TargetMachine=MachineX86
+                                     TrackerLogDirectory=Debug\Kiki_Lea.B0474088.tlog\
+                                     TurnOffAssemblyGeneration=false
+                                     TypeLibraryResourceID=1
+                                     UACExecutionLevel=AsInvoker
+                                     UACUIAccess=false
+                                     WindowsMetadataFile=
+                                     WindowsMetadataKeyContainer=
+                                     WindowsMetadataLinkDelaySign=
+                                     WindowsMetadataLinkKeyFile=
+                                     WindowsMetadataSignHash= (TaskId:26)
+                     Task Parameter:
+                         AdditionalDependencies=
+                             kernel32.lib
+                             user32.lib
+                             gdi32.lib
+                             winspool.lib
+                             comdlg32.lib
+                             advapi32.lib
+                             shell32.lib
+                             ole32.lib
+                             oleaut32.lib
+                             uuid.lib
+                             odbc32.lib
+                             odbccp32.lib (TaskId:26)
+                     Task Parameter:AllowIsolation=True (TaskId:26)
+                     Task Parameter:CLRImageType=Default (TaskId:26)
+                     Task Parameter:DataExecutionPrevention=True (TaskId:26)
+                     Task Parameter:Driver=NotSet (TaskId:26)
+                     Task Parameter:EnableUAC=True (TaskId:26)
+                     Task Parameter:LinkErrorReporting=PromptImmediately (TaskId:26)
+                     Task Parameter:GenerateDebugInformation=True (TaskId:26)
+                     Task Parameter:GenerateManifest=True (TaskId:26)
+                     Task Parameter:GenerateMapFile=False (TaskId:26)
+                     Task Parameter:IgnoreEmbeddedIDL=False (TaskId:26)
+                     Task Parameter:ImportLibrary=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.lib (TaskId:26)
+                     Task Parameter:LinkIncremental=True (TaskId:26)
+                     Task Parameter:ManifestEmbed=True (TaskId:26)
+                     Task Parameter:MapExports=False (TaskId:26)
+                     Task Parameter:OutputFile=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe (TaskId:26)
+                     Task Parameter:Profile=False (TaskId:26)
+                     Task Parameter:ProgramDatabaseFile=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.pdb (TaskId:26)
+                     Task Parameter:RandomizedBaseAddress=True (TaskId:26)
+                     Task Parameter:NoEntryPoint=False (TaskId:26)
+                     Task Parameter:SetChecksum=False (TaskId:26)
+                     Task Parameter:ShowProgress=NotSet (TaskId:26)
+                     Task Parameter:SubSystem=Console (TaskId:26)
+                     Task Parameter:SuppressStartupBanner=True (TaskId:26)
+                     Task Parameter:SwapRunFromCD=False (TaskId:26)
+                     Task Parameter:SwapRunFromNET=False (TaskId:26)
+                     Task Parameter:TargetMachine=MachineX86 (TaskId:26)
+                     Task Parameter:TurnOffAssemblyGeneration=False (TaskId:26)
+                     Task Parameter:TypeLibraryResourceID=1 (TaskId:26)
+                     Task Parameter:UACExecutionLevel=AsInvoker (TaskId:26)
+                     Task Parameter:UACUIAccess=False (TaskId:26)
+                     Task Parameter:TrackerLogDirectory=Debug\Kiki_Lea.B0474088.tlog\ (TaskId:26)
+                     Task Parameter:TrackFileAccess=True (TaskId:26)
+                     Task Parameter:MinimalRebuildFromTracking=True (TaskId:26)
+                     Task Parameter:ToolArchitecture=Native32Bit (TaskId:26)
+                     Using cached output dependency table built from: (TaskId:26)
+                     	C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Lea.B0474088.tlog\link.write.1.tlog (TaskId:26)
+                     Using cached input dependency table built from: (TaskId:26)
+                     	C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Lea.B0474088.tlog\link.read.1.tlog (TaskId:26)
+                     Outputs for C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\DEBUG\MAIN.OBJ: (TaskId:26)
+                     	C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\DEBUG\KIKI_LEARNING_STUFF.ILK (TaskId:26)
+                     	C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\DEBUG\KIKI_LEARNING_STUFF.EXE (TaskId:26)
+                     	C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\DEBUG\KIKI_LEARNING_STUFF.PDB (TaskId:26)
+                     Inputs for C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\DEBUG\MAIN.OBJ: (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\KERNEL32.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\USER32.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\GDI32.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\WINSPOOL.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\COMDLG32.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\ADVAPI32.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\SHELL32.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\OLE32.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\OLEAUT32.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\UUID.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\ODBC32.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\ODBCCP32.LIB (TaskId:26)
+                     	C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\DEBUG\MAIN.OBJ (TaskId:26)
+                     	C:\WINDOWS\SYSTEM32\TZRES.DLL (TaskId:26)
+                     	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\VC\LIB\MSVCPRTD.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\VC\LIB\MSVCRTD.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\VC\LIB\OLDNAMES.LIB (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\VC\BIN\LINK.EXE (TaskId:26)
+                     	C:\WINDOWS\SYSTEM32\RSAENH.DLL (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\BIN\X86\RC.EXE (TaskId:26)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\VC\BIN\CVTRES.EXE (TaskId:26)
+                     Source compilation required: input C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\DEBUG\MAIN.OBJ is newer than output C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\DEBUG\KIKI_LEARNING_STUFF.EXE. (TaskId:26)
+                     Environment Variables passed to tool: (TaskId:26)
+                       VS_UNICODE_OUTPUT=972 (TaskId:26)
+                     C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.lib" /MACHINE:X86 Debug\main.obj (TaskId:26)
+                     Tracking command: (TaskId:26)
+                     C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Lea.B0474088.tlog /r C:\WORK\NON_BMW\LEARNINGCPP\KIKI_LEARNING_STUFF\DEBUG\MAIN.OBJ /b MSBuildConsole_CancelEvent7d631b3771594aeaa17019921878ead7  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.lib" /MACHINE:X86 Debug\main.obj (TaskId:26)
+                   Done executing task "Link". (TaskId:26)
+                   Task "Message" (TaskId:27)
+                     Task Parameter:Text=Kiki_Learning_Stuff.vcxproj -> C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe (TaskId:27)
+                     Task Parameter:Importance=High (TaskId:27)
+                     Kiki_Learning_Stuff.vcxproj -> C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.exe (TaskId:27)
+                   Done executing task "Message". (TaskId:27)
+16:52:35.121     1>Done building target "Link" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:73)
+                   Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
+                   Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
+                   Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
+16:52:35.121     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:74)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+                   Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkSecondaryOutput)' != '') was evaluated as ('' != '').
+16:52:35.121     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:74)
+16:52:35.121     1>Target "AfterLink: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_Link" depends on it):
+16:52:35.121     1>Done building target "AfterLink" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:75)
+16:52:35.121     1>Target "_Link: (TargetId:76)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+16:52:35.121     1>Done building target "_Link" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:76)
+16:52:35.121     1>Target "_ALink: (TargetId:77)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+16:52:35.121     1>Done building target "_ALink" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:77)
+                   Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
+16:52:35.121     1>Target "_Manifest: (TargetId:78)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+                   Task "CallTarget" skipped, due to false condition; ('$(LegacyManifestEmbedding)' == 'true') was evaluated as ('' == 'true').
+16:52:35.121     1>Done building target "_Manifest" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:78)
+16:52:35.121     1>Target "RegisterOutput: (TargetId:79)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+16:52:35.121     1>Done building target "RegisterOutput" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:79)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+16:52:35.121     1>Target "ResolvedXDCMake: (TargetId:80)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+16:52:35.121     1>Done building target "ResolvedXDCMake" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:80)
+16:52:35.121     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:81)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_XdcMake" depends on it):
+16:52:35.121     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:81)
+16:52:35.121     1>Target "MakeDirsForXdcMake: (TargetId:82)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:28)
+                   Done executing task "MakeDir". (TaskId:28)
+16:52:35.121     1>Done building target "MakeDirsForXdcMake" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:82)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+16:52:35.121     1>Target "_XdcMake: (TargetId:83)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+16:52:35.121     1>Done building target "_XdcMake" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:83)
+16:52:35.121     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:84)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BscMake" depends on it):
+16:52:35.121     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:84)
+16:52:35.121     1>Target "MakeDirsForBscMake: (TargetId:85)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:29)
+                   Done executing task "MakeDir". (TaskId:29)
+16:52:35.121     1>Done building target "MakeDirsForBscMake" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:85)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+16:52:35.121     1>Target "_BscMake: (TargetId:86)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+16:52:35.121     1>Done building target "_BscMake" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:86)
+                   Target "RunMergeNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+                   Target "RunNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+16:52:35.121     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:87)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+16:52:35.121     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:87)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+16:52:35.121     1>Target "CreateSatelliteAssemblies: (TargetId:88)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+16:52:35.121     1>Done building target "CreateSatelliteAssemblies" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:88)
+16:52:35.121     1>Target "_Appverifier: (TargetId:89)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+16:52:35.121     1>Done building target "_Appverifier" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:89)
+16:52:35.121     1>Target "_Deploy: (TargetId:90)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+16:52:35.121     1>Done building target "_Deploy" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:90)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+16:52:35.121     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:91)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:30)
+                     Task Parameter:RootFolder=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff (TaskId:30)
+                   Done executing task "AssignTargetPath". (TaskId:30)
+16:52:35.121     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:91)
+16:52:35.121     1>Target "GetCopyToOutputDirectoryItems: (TargetId:92)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:31)
+                     Task Parameter:RootFolder=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff (TaskId:31)
+                   Done executing task "AssignTargetPath". (TaskId:31)
+16:52:35.121     1>Done building target "GetCopyToOutputDirectoryItems" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:92)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+16:52:35.121     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:93)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+16:52:35.121     1>Done building target "_CopySourceItemsToOutputDirectory" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:93)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+16:52:35.121     1>Target "_CheckForCompileOutputs: (TargetId:94)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+16:52:35.121     1>Done building target "_CheckForCompileOutputs" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:94)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+16:52:35.121     1>Target "CopyFilesToOutputDirectory: (TargetId:95)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "PrepareForRun" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Using "Copy" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Copy" (TaskId:32)
+                     Task Parameter:SourceFiles=Debug\Kiki_Learning_Stuff.pdb (TaskId:32)
+                     Task Parameter:DestinationFiles=C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.pdb (TaskId:32)
+                     Task Parameter:SkipUnchangedFiles=True (TaskId:32)
+                     Task Parameter:OverwriteReadOnlyFiles=False (TaskId:32)
+                     Task Parameter:UseHardlinksIfPossible=False (TaskId:32)
+                     Did not copy from file "Debug\Kiki_Learning_Stuff.pdb" to file "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Debug\Kiki_Learning_Stuff.pdb" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match. (TaskId:32)
+                   Done executing task "Copy". (TaskId:32)
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+                   Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+16:52:35.121     1>Done building target "CopyFilesToOutputDirectory" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:95)
+16:52:35.121     1>Target "PrepareForRun: (TargetId:96)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+16:52:35.121     1>Done building target "PrepareForRun" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:96)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+16:52:35.121     1>Target "PostBuildEvent: (TargetId:97)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "_BuildLinkAction" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+16:52:35.121     1>Done building target "PostBuildEvent" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:97)
+16:52:35.121     1>Target "_BuildLinkAction: (TargetId:98)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "BuildLink" depends on it):
+16:52:35.121     1>Done building target "_BuildLinkAction" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:98)
+16:52:35.121     1>Target "BuildLink: (TargetId:99)" in file "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "Build" depends on it):
+16:52:35.121     1>Done building target "BuildLink" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:99)
+                   Target "CreateTfsBuildInfoResource" skipped, due to false condition; ( $(AddBuildInfoToAssembly)==true ) was evaluated as ( false==true ).
+16:52:35.121     1>Target "AfterBuild: (TargetId:100)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "Build" depends on it):
+16:52:35.121     1>Done building target "AfterBuild" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:100)
+16:52:35.121     1>Target "FinalizeBuildStatus: (TargetId:101)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (target "Build" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:33)
+                     Task Parameter:Files=Debug\Kiki_Lea.B0474088.tlog\unsuccessfulbuild (TaskId:33)
+                     Deleting file "Debug\Kiki_Lea.B0474088.tlog\unsuccessfulbuild". (TaskId:33)
+                   Done executing task "Delete". (TaskId:33)
+                   Task "Touch" (TaskId:34)
+                     Task Parameter:Files=Debug\Kiki_Lea.B0474088.tlog\Kiki_Learning_Stuff.lastbuildstate (TaskId:34)
+                     Touching "Debug\Kiki_Lea.B0474088.tlog\Kiki_Learning_Stuff.lastbuildstate". (TaskId:34)
+                   Done executing task "Touch". (TaskId:34)
+16:52:35.121     1>Done building target "FinalizeBuildStatus" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:101)
+16:52:35.121     1>Target "Build: (TargetId:102)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" from project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (entry point):
+16:52:35.121     1>Done building target "Build" in project "Kiki_Learning_Stuff.vcxproj".: (TargetId:102)
+16:52:35.121     1>Done Building Project "C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj" (Build target(s)).
+
+Project Performance Summary:
+     1014 ms  C:\Work\non_BMW\learningCpp\Kiki_Learning_Stuff\Kiki_Learning_Stuff.vcxproj   1 calls
+               1014 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  InitializeBuildStatus                      1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  GetResolvedWinMD                           1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  ResolveAssemblyReferences                  1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  SetCABuildNativeEnvironmentVariables       1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  ComputeLinkSwitches                        1 calls
+        0 ms  FinalizeBuildStatus                        1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  Build                                      1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  WarnCompileDuplicatedFilename              1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  ComputeLegacyManifestEmbedding             1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  _BuildLinkAction                           1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  _PrepareForReferenceResolution             1 calls
+        0 ms  MakeDirsForLink                            1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  SplitResourcesByCulture                    1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+       16 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+      218 ms  Link                                       1 calls
+      764 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  AssignTargetPath                           6 calls
+        0 ms  WriteLinesToFile                           1 calls
+        0 ms  SetEnv                                     4 calls
+        0 ms  MakeDir                                    9 calls
+        0 ms  SetEnvironmentVariable                     1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  Touch                                      2 calls
+        0 ms  Delete                                     1 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  Copy                                       1 calls
+        0 ms  Message                                    3 calls
+        0 ms  ReadLinesFromFile                          1 calls
+      218 ms  Link                                       1 calls
+      764 ms  CL                                         1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:01.01
